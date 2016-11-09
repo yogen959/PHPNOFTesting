@@ -1,0 +1,22 @@
+{
+    "name": "PHPNOF",
+    "description": "test",
+    "keywords": ["Your keyword", "Another keyword"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Gonzalez",
+            "email": "ggd959@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPNOF\\": "src/"
+        }
+    }
+}
